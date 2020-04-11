@@ -1,8 +1,9 @@
 body {
   padding-left: 11em;
+  padding-right: 11em;
   font-family: Georgia, "Times New Roman",
        Times, serif;
-  color: pink;
+ color: black;
   background-color: lightblue }
 h1 {
   background: white;
@@ -15,4 +16,7 @@ h2 {
   margin:0.5em 0.5em;
   padding:0.5em;
   border-right: 0.5em solid pink
+}
+div{
+  color: pink;
 }
