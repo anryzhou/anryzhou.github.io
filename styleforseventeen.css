@@ -3,7 +3,7 @@ body {
   padding-right: 11em;
   font-family: Georgia, "Times New Roman",
        Times, serif;
- color: black;
+ color: #76B9E6;
   background-color: lightblue }
 h1 {
   background: white;
@@ -17,6 +17,7 @@ h2 {
   padding:0.5em;
   border-right: 0.5em solid pink
 }
-div{
-  color: pink;
+
+b {
+  background-color: lightpink;
 }
