@@ -3,13 +3,39 @@
  <head>
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
    <title>SHINING CARAT</title>
    <link rel="stylesheet" href="styleforseventeen.css">
  </head>
  <body>
-   <h1 class="display-4">Welcome to the world for seventeen</h1>
-      <h2 class="display-4">I hope you will like them</h2>
-      <br>  <br>
+   <!-- Navigation -->
+   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+     <div class="container-fluid">
+       <a class="navbar-brand" href="#">
+         <img src="logo.jpg" width="40" height="40" alt="">
+       </a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+           <ul class="navbar-nav ml-auto" >
+            <li class="nav=item active">
+             <a class="nav-link" href="#">Home</a>
+           </li>
+           <li class="nav=item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav=item">
+           <a class="nav-link" href="#">Shop</a>
+         </li>
+         <li class="nav=item">
+          <a class="nav-link" href="#">Connect</a>
+        </li>
+           </ul>
+     </div>
+   </nav>
+
+<!--openning slide-->
       <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -18,21 +44,21 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="zixun1.jpg" class="d-block w-100" alt="...">
+            <img src="zixun1.jpg" height="850" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Fallin' Flower 音源上线</h5>
               <p>最新日文单曲《Fallin' Flower》音源上线QQ音乐和网易云音乐，一起听美丽的落花宝！</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="zixun3.png" class="d-block w-100" alt="...">
+            <img src="zixun3.png" height="850" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Going SEVENTEEN</h5>
               <p>月刊主题Going SEVENTEEN全新上线，四月刊最新更新！.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="zixun2.jpg" class="d-block w-100" alt="...">
+            <img src="zixun2.jpg" height="850" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>防疫分离LOGO</h5>
               <p>SEVENTEEN官方发布分离式LOGO，提倡社会活动保持距离.</p>
@@ -48,71 +74,251 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <br> <br>
+
+  <!--jumbotron-->
       <div class="jumbotron">
-  <h1 class="alert-heading">Let me introduce them for you!</h1>
-  <p class="lead">SEVENTEEN is a Korea boy group, containing 13 members.They are devided into 3 subgroups called VOCAL HIP-HOP and PERFORMANCE respectively.</p>
+  <h1 class="display-4">欢迎来到次时代!</h1>
+  <p class="lead">SEVENTEEN又被叫做小十七、小次，是2015年5月26日出道的韩国男子组合，所属公司PLEDIS娱乐。组合共有成员13名，包含两名中国成员和两名美国籍队员（其中一位韩美混血），同时又分为VOCAL、HIP-HOP、PERFORMANCE三个小分队。成员数量
+    加上三个小分队再加上SEVENTEEN是一个整体，13+3+1+17.</p>
   <hr class="my-4">
-  <p>they debuted at May 26th 2015. The fans of them are called CARAT which means diamond. What a romantic name!</p>
-  <a class="btn btn-primary btn-lg" href="https://baike.baidu.com/item/Seventeen/5175200?fr=aladdin" role="button">clik here to learn more</a>
+  <p>成员们亲自取的粉丝名字为“CARAT”，即为克拉。EVENTEEN的标志是类似钻石的形状，CARAT即为钻石的计量单位。</p>
+  <a class="btn btn-outline-info btn-lg" href="https://baike.baidu.com/item/Seventeen/5175200?fr=aladdin" role="button">了解更多</a>
 </div>
-      <b>Vocal Team</b><br><br><br>
-      <div class="card-deck">
+
+<!--TMI section-->
+<button class="btn btn-outline-info" data-toggle="collapse" data-target="#tmi">点击获取TMI</button>
+<div id="tmi"class="collapse">
+  <div class="lead">胡萝卜的由来：SEVENTEEN的粉丝名CARAT读音与英语胡萝卜的读音相似，所以克拉也戏称自己为胡萝卜，并且也想过应援棒会不会做成胡萝卜。
+  </div>
+</div>
+
+<!--fixedbackgroud-->
+<figure>
+  <div class="fixed-wrap">
+    <div id="fixed">
+    </div>
+  </div>
+</figure>
+
+<!--introduction section 1-->
+<br><br>
+      <b class="display-4">小分队介绍之Vocal Team</b><br><br>
+      <p class="lead">VOCAL TEAM共有5人，两个主唱和两个副主唱以及一个领唱。主唱队的曲目多为抒情曲，5名成员嗓音各有特色，但是配合默契，被称作“随便一唱就是绝美和音”。
+      <br><br><br>
+  <div class="card-deck">
   <div class="card">
     <img src="vobo.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <h5 class="card-title">李知勋 WOOZI</h5>
+      <p class="card-text">1996-11-22，VOCAL TEAM的队长，团队里的作曲家，才华横溢的vocal boss. </p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">图源于百度</small>
     </div>
   </div>
   <div class="card">
     <img src="shengkuan.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <h5 class="card-title">夫胜宽</h5>
+      <p class="card-text">1998-1-16，VOCAL TEAM的主唱，声音美好而有爆发力，同时也是才气满分的综艺担当.</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">图源于百度</small>
     </div>
   </div>
   <div class="card">
     <img src="DK.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <h5 class="card-title">李硕珉 DK</h5>
+      <p class="card-text">1997-2-18，VOCAL TEAM的主唱，清澈的汽水音，温柔善良且艺能感满分的行走表情包.</p>
     </div>
     <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
+      <small class="text-muted">图源于百度</small>
     </div>
   </div>
 </div>
+<br>
+<div class="card-deck">
+ <div class="card">
+  <img src="joshua.jpg" class="card-img-top" alt="...">
+   <div class="card-body">
+    <h5 class="card-title">洪知秀 Joshua</h5>
+    <p class="card-text">1995-12-30，VOCAL TEAM的副主唱，蜜嗓教堂哥哥，英语能力者. </p>
+   </div>
+    <div class="card-footer">
+      <small class="text-muted">图源于百度</small>
+    </div>
+ </div>
+ <div class="card">
+  <img src="jinghan.jpg" class="card-img-top" alt="...">
+   <div class="card-body">
+    <h5 class="card-title">尹净汉</h5>
+    <p class="card-text">1995-10-4，VOCAL TEAM的副主唱，因为生日1004韩语发音同“天使”被称作尹天使，软糯嗓音的撒娇小兔兔.</p>
+   </div>
+    <div class="card-footer">
+<small class="text-muted">图源于百度</small>
+</div>
+</div>
+<div class="card">
+  <img src="DK.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">主唱队推荐曲目</h5>
+    <p class="card-text">正规三辑 《Second Life》.</p>
+    <button type="button" class="btn btn-outline-info" href="...">点击收听</button>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于微博</small>
+  </div>
+</div>
+</div>
 
-      <br><br><br><br>
-      <h4>Hip-hop Team</h4>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <br><br><br><br>
-      <h5>Performance Team</h5>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
-      <img src="woozi1.jpeg" width="210em" height="150em"></img>
+<!--introduction section 2-->
+<br><br><br>
+<b class="display-4">小分队介绍之Hip-hop Team</b><br><br>
+<p class="lead">HIP-HOP TEAM共有4人，主要负责团队歌曲的嘻哈说唱部分，成员大都自己写歌词，是除了WOOZI以外的版权富人。在舞台上展现克里斯马魅力的四位帅哥，现实中冒着傻气的可爱形象总让人感受到反转的魅力。</p>
+<br><br><br>
+<div class="card-deck">
+<div class="card">
+  <img src="scoups.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">崔胜哲 s.coups</h5>
+    <p class="card-text">1995-8-8，HIP-HOP TEAM的队长，也是全队的总管leader。舞台上魄力十足，私下里也因为胆小可爱被称为“小公主”。但关键时刻永远是成员们靠得住的大哥。 </p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+  <img src="woowon.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">全圆佑</h5>
+    <p class="card-text">1996-7-17，HIP-HOP TEAM的成员，全队最苏低音炮，眯着眼睛性感的眼神其实只是因为高度近视，喜欢打游戏的著名网瘾少年。</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+  <img src="vernon.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">崔瀚率 Vernon</h5>
+    <p class="card-text">1998-2-18，HIP-HOP TEAM的成员，精致的混血外貌，行走的雕塑。喜欢带耳机的四次元少年，经常与大家不在统一频道。毛线帽是本体，最好是彩虹色的。</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+</div>
+<br>
+<div class="card-deck">
+<div class="card">
+<img src="mingui.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+  <h5 class="card-title">金珉奎</h5>
+  <p class="card-text">1997-4-6，HIP-HOP TEAM的成员，队内最长身，近190的身高和举铁换来的好身材下是一颗少女心。第一破坏王，摔坏奖杯小能手。但同时也是珉煮妇，做饭打扫居家小天使。</p>
+ </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+<img src="jinghan.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+  <h5 class="card-title">黑泡队推荐曲目</h5>
+  <p class="card-text">正规三辑《Back it up》</p>
+  <button type="button" class="btn btn-outline-info" href="...">点击收听</button>
+ </div>
+  <div class="card-footer">
+<small class="text-muted">图源于百度</small>
+</div>
+</div>
+<div class="card">
+<img src="DK.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">黑泡队推荐舞台</h5>
+  <p class="card-text">日巡场《IF I》</p>
+  <button type="button" class="btn btn-outline-info" href="...">点击收看</button>
+</div>
+<div class="card-footer">
+  <small class="text-muted">图源于微博</small>
+</div>
+</div>
+</div>
 
-           <p>This is my paragraph.</p><br>
-           <p>This is another paragraph.</p>
-           <b>Bold text</b><br>
-           <i>Italic text</i><br>
-           <u>Underlined text</u>
-           <em>Emphasized text</em>
-           <strong>Strong text</strong>
-           <sub>Subscript text</sub>
-           <sup>Superscript text</sup><br>
-<a href="http://by.cuc.edu.cn/">This is the link to CUC's website</a>
+<!--introduction section 3-->
+<br><br><br>
+<b class="display-4">小分队介绍之Performance Team</b><br><br>
+<p class="lead">PERFORMANCE TEAM有4名成员，主要负责舞蹈表演部分，四名成员都有坚实的舞蹈基础，甚至有跆拳道黑带成员和中国武术能力者。该小分队因为韩语发音“婆婆闷死”，又被称为婆队。</p>
+<br><br><br>
+<div class="card-deck">
+<div class="card">
+  <img src="the8.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">徐明浩 The8</h5>
+    <p class="card-text">1997-11-7，PERFORMANCE TEAM的成员，也中国line的一员。会B-boy会双截棍，喜欢画画摄影，还喜欢红酒，被粉丝称为会享受生活的养生达人。 </p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+  <img src="jun.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">文俊辉 JUN</h5>
+    <p class="card-text">1996-6-10，PERFORMANCE TEAM的成员，中国line又一成员。两岁就出道的深圳地铁小王子，演戏和跳舞都超级惊艳。吃货属性明显，且爱用幼稚的恶作剧捉弄成员，被称为文三岁。</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+  <img src="hoshi.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">权顺荣 Hoshi</h5>
+    <p class="card-text">1996-6-15，PERFORMANCE TEAM的队长，舞台上的小老虎，私底下的小仓鼠。出道以前曾是主唱队的一员，但是有着过人的舞蹈天赋，出道后负责团队的编舞，但是是电子白痴（不会使用Siri）。</p>
+  </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+</div>
+<br>
+<div class="card-deck">
+<div class="card">
+<img src="dino.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+  <h5 class="card-title">李灿 Dino</h5>
+  <p class="card-text">1999-2-11，PERFORMANCE TEAM的成员，钻石忙内小恐龙，出道时年仅16岁。不断成长的灿尼也担任团队的编舞，呈现《Flower》的绝美舞台。被哥哥们照顾长大，也承受了所有恶作剧，seventeen的忙内是极限职业呀。</p>
+ </div>
+  <div class="card-footer">
+    <small class="text-muted">图源于百度</small>
+  </div>
+</div>
+<div class="card">
+<img src="jinghan.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
+  <h5 class="card-title">婆队推荐曲目</h5>
+  <p class="card-text">正规三辑《247》</p>
+  <button type="button" class="btn btn-outline-info" href="...">点击收听</button>
+ </div>
+  <div class="card-footer">
+<small class="text-muted">图源于百度</small>
+</div>
+</div>
+<div class="card">
+<img src="DK.jpg" class="card-img-top" alt="...">
+<div class="card-body">
+  <h5 class="card-title">婆队推荐舞台</h5>
+  <p class="card-text">克拉岛《swimming fool》</p>
+  <button type="button" class="btn btn-outline-info" href="...">点击收看</button>
+</div>
+<div class="card-footer">
+  <small class="text-muted">图源于微博</small>
+</div>
+</div>
+</div>
+
+
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
